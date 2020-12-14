@@ -1,0 +1,73 @@
+/*
+font-family: 'Bangers', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*GLOBAL*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+/*NAVBAR*/
+nav{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-logo{
+    display: flex;
+}
+.navBar{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.nav-list{
+    display: flex;
+    text-align: center;
+    
+}
+.nav-list li{
+    display: inline-block;
+}
+.nav-list li a{
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: crimson;
+    text-align: center;
+    justify-content: center;
+    
+}
+.navBar ul{
+    text-align: right;
+}
+.nav-list{
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*LANDING*/
+.landing{
+    text-align: center;
+}
+.landing h1{
+    font-family: bangers;
+    color: yellow;
+    font-size: 100px;
+    text-shadow: black;
+    letter-spacing: 10px;
+}
+.landing h4{
+    font-family: 'Oswald', sans-serif;
+}

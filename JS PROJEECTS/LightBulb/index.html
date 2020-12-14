@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Turn light Bulb On/Off</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <!--Linked to my Style Sheet-->
+        <link rel="stylesheet" href="/styles.css" type="text/css">
+                    <!--Linked to Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+                    <!--Linked to Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Oswald:wght@200;400;700&family=Roboto:ital,wght@0,100;0,400;0,900;1,100&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+                    <!--NAVBAR SECTION-->
+<div class="navbar">
+    <ul>
+        <li><a href="#js-lightBulb">JS Light Bulb</a></li>
+        <li><a href="#about-electricity">Electricity</a></li>
+        <li><a href="#about-lighting">Lighting</a></li>
+    </ul>
+</div>
+                    <!--END NAVBAR SECTION-->
+
+
+                    <!--LIGHT BULB SECTION-->
+<div class="bulb-container">
+    <div class="bulb-off" id="bulb-off">
+        <img src="/img/lightOff.png" alt="buld off" id="bulb">
+    </div>
+    <div class="bulb-on" id="bulb-on">
+        <img src="/img/lightOn.png" alt="buld off" id="bulb">
+    </div>
+</div>
+
+<button id="on-btn" onclick="light(0)">
+    ON
+</button>
+<button id="off-btn" onclick="light(1)">
+    OFF
+</button>
+
+
+
+            <!--Script to Behaviour for Light Bulb Buttons-->
+        <script src="/app.js"></script>
+    </body>
+</html>

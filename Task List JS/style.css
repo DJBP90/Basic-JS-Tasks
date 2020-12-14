@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+GOOGLE FONTS
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    padding: 50px;
+    color: red;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
+button:hover{
+    color: black;
+    background-color: green;
+}
+ul{
+    list-style-type: square;
+    font-family: 'Montserrat', sans-serif;
+}

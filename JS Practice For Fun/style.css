@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-contain img{
+    display: flex;
+    padding: 3px;
+}
+.nav-links{
+    width: 100%;
+    display: ;
+}
+.nav-links li a{
+    display:;
+    position: relative;
+}
+nav{
+    width: 100%;
+    display: inline-flex;
+}
